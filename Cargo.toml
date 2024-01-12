@@ -3,5 +3,13 @@ name = "valve-bsp"
 version = "0.1.0"
 edition = "2021"
 
+[lib]
+name = "vbsp"
+path = "vbsp/lib.rs"
+
+[[bin]]
+name = "bsp-thing"
+path = "src/main.rs"
+
 [dependencies]
 binrw = "0.13.3"
